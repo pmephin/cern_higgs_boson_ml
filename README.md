@@ -17,7 +17,9 @@ A hyperparameter search was done on all models. Higher the AMS, better is the mo
 | AdaBoost        | 2.97      |
 | DNN             | 2.16      |
 
-- BXT seems to have outperformed all the models taken into consideration
+- BXT seems to have outperformed all the models taken into consideration![final_ams_plot](https://github.com/pmephin/cern_higgs_boson_ml/assets/134229875/2b5dc64e-1d91-4d88-bfd4-7ae9ef80fdcf)
+
 - DNN has a tendency to overfit even through dropout layers were added and batch sizes were small. More tuning is needed
 ## Plot
-![](Plots/BXT_ams_plot.svg)
+
+![Uploading final_ams_plot.svg…]()
