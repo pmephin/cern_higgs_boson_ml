@@ -26,8 +26,9 @@ for mtype,m in models.items():
 plt.figure()
 plt.plot(BXT_dat[:,0],BXT_dat[:,1],label='BXT')
 plt.plot(RF_dat[:,0],RF_dat[:,1],label='Random Forest')
+plt.plot(ADA_dat[:,0],ADA_dat[:,1],label='AdaBoost')
 plt.plot(DNN_dat[:,0],DNN_dat[:,1],label='DNN')
-plt.plot(ADA_dat[:,0],ADA_dat[:,1],label='BXT')
+
 plt.xlabel('Decision Threshold')
 plt.ylabel('AMS')
 plt.title('AMS vs Decision Threshold')
