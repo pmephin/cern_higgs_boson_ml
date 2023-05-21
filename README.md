@@ -22,4 +22,5 @@ A hyperparameter search was done on all models. Higher the AMS, better is the mo
 - DNN has a tendency to overfit even through dropout layers were added and batch sizes were small. More tuning is needed
 ## Plot
 
-[](https://github.com/pmephin/cern_higgs_boson_ml/assets/134229875/2b5dc64e-1d91-4d88-bfd4-7ae9ef80fdcf)
+
+![final_ams_plot](https://github.com/pmephin/cern_higgs_boson_ml/assets/134229875/ad8ab8a8-aece-4e68-96a6-17aff7319a7a)
