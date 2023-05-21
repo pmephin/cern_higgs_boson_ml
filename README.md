@@ -10,6 +10,12 @@ A hyperparameter search was done on all models. Higher the AMS, better is the mo
 
 | Model       | AMS Value  |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| BXT         | 3.49        |
+| Random Forest   | 3.24       |
+| AdaBoost        | 2.97      |
+| DNN             | 2.16      |
+
+- BXT seems to have outperformed all the models taken into consideration
+- DNN has a tendency to overfit even through dropout layers were added and batch sizes were small. More tuning is needed
+## Plot
 
