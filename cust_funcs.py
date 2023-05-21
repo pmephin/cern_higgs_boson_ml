@@ -20,16 +20,7 @@ def forest_imputer(DF):
     DF1=DF.copy()
     DF1.DER_mass_MMC[DF1.DER_mass_MMC==-999]=P
     return DF1
-'''
-def linear_imputer(DF):
-    
-    P=LinearRegression().fit(X=DF[DF.DER_mass_MMC!=-999][['DER_deltar_tau_lep','DER_mass_vis']],
-       y=DF[DF.DER_mass_MMC!=-999].DER_mass_MMC).predict(DF[DF.DER_mass_MMC==-999][['DER_deltar_tau_lep','DER_mass_vis']])
-    
-    DF1=DF.copy()
-    DF1.DER_mass_MMC[DF1.DER_mass_MMC==-999]=P
-    return DF1
-'''
+
 def linear_imputer(DF):
     
     lin_mod=LinearRegression().fit(X=DF[DF.DER_mass_MMC!=-999][['DER_deltar_tau_lep','DER_mass_vis']],
