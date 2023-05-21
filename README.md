@@ -20,4 +20,4 @@ A hyperparameter search was done on all models. Higher the AMS, better is the mo
 - BXT seems to have outperformed all the models taken into consideration
 - DNN has a tendency to overfit even through dropout layers were added and batch sizes were small. More tuning is needed
 ## Plot
-![](Plots/BXT_ams_plot.svg)
+![](Plots/final_ams_plot.svg)
